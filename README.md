@@ -1,62 +1,17 @@
-# gde projekt
+# First Unity Learning Project
 
-## TODOS
+This is a small Unity game developed as a university team project. It was my very first hands-on experience with the Unity Engine and C# scripting.
 
-### 1. 3D Modelle:
+### ℹ️ About the Project
+The primary goal of this project was to understand the fundamentals of game development, object-oriented programming in C#, and the Unity interface. 
 
-- Sadi [X]
-- Jovana [X]
-- Max [ ]
+*Note: To focus entirely on programming and mechanics, we utilized pre-made third-party assets (3D models, textures) for the visuals.*
 
-### 2. Technical Stuff
+## Tech Stack
+* Unity 3D
+* C#
 
-Abgabestruktur einhalten whatever that is [ ]
-
-UI Elemente [ ]
-
-- New Game
-- Close
-- Player Name
-
-Highscore System [ ]:
-
-- 5 Einträge Name & Score nach Score absteigend sortiert am Start/Game Over Screen
-- Falls nicht 5 Einträge -> auffüllen
-- System.IO.File Klassen verwenden
-- String.Split & String.Format um CSV Einträge formatieren
-
-Game Over:
-
-- Highscore aktualisieren [ ]
-- "Game Over" Text [X]
-- Auslösen, wenn Player abstürzt oder Gegner berührt [ ]
-
-Steuerung über Delegates & Events:
-
-- WASD, Space, Esc (Spiel verlassen) [X]
-- Springen über Forces umsetzen (Character Controller aber auch erlaubt) [ ]
-- Sprung -> Energie wird weniger, lädt sich aber mit der Zeit auf [ ]
-- Lange Space Taste halten -> höher/weiter Sprung [ ]
-- Ladebalken, der sich über Zeit auflädt (optional)
-
-### 3. Audio (mehr Details hier https://ecampus.ustp.at/mod/page/view.php?id=736305)
-
-- 2D & 3D Audio Objects [ ]
-- Events [ ]
-- Container [ ]
-- Game Syncs [ ]
-- Reverb [ ]
-- State Fade [ ]
-- Randomization [ ]
-- Optimization (idk, ob wir machen müssen) [ ]
-- Sound Design & Experience [ ]
-
-## Idee:
-
-Schnecke, holt Player ein, Pickups boosten dich bist bissi schneller & laden Ausdauer auf, Ausdauer Leiste für Sprinten
-
-1. Level = Tutorial für Game Mechanics
-2. ohne Kreissägen
-3. mit Kreissägen, schnellere Movements
-
-5 Gegner zB auf ganzer Platform, jagt dich, wenn der dich berührt dead, Gegner kann man nicht töten
+## Credits
+* **Avoqato2:** Core game logic and player controller (C#).
+* **jovanastevic:** UI implementation
+* **atzensmanf:** Sounddesign in WWise
